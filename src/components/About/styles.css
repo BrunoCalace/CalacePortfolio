@@ -1,3 +1,36 @@
-.bg {
+.aboutBox {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+.aboutBox .aboutDestContainer {
+    max-width: 800px;
+}
+
+.aboutBox .aboutDestContainer .aboutDest {
+    font-size: 20px;
+}
+
+.aboutBox h1, .aboutBox h2, .aboutBox p, .aboutBox button {
+    margin: 10px 0;
+}
+
+.aboutBox button {
+    padding: 10px 20px;
     background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.aboutBox button:hover {
+    background-color: gray;
 }
