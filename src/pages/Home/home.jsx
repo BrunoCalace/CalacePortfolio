@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar'
 import About from '../../components/About'
 import Proyects from '../../components/Proyects'
 import Educacion from '../../components/Educacion'
-import Skills from '../..//components/Skills'
+import Skills from '../../components/Skills'
 import Contacto from '../../components/Contacto'
 /*import Footer from "../../components/Footer" */
 
@@ -12,19 +12,19 @@ const Home = () => {
         <div className="home-container">
             <Navbar />
             <div className="content-container">
-                <section id="section1">
+                <section id="sobremi">
                     <About />
                 </section>
-                <section id="section2">
+                <section id="proyectos">
                     <Proyects />
                 </section>
-                <section id="section3">
+                <section id="educacion">
                     <Educacion />
                 </section>
-                <section id="section4">
+                <section id="habilidades">
                     <Skills />
                 </section>
-                <section id="section5">
+                <section id="contacto">
                     <Contacto />
                 </section> 
             </div>

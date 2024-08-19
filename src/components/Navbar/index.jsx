@@ -19,12 +19,12 @@ function Navbar() {
         <NavbarContainer>
             <div>
                 <ul className="nav-ul">
-                    <a className="li-icon" href="#section1"><img className="iconNav" src={iconav} alt="icon"/></a>
-                    <a className="li" href="#section1">Sobre mí</a>
-                    <a className="li" href="#section2">Proyectos</a>
-                    <a className="li"href="#section3">Educación</a>
-                    <a className="li" href="#section4">Habilidades</a>
-                    <a className="li" href="#section5">Contacto</a>
+                    <a className="li-icon" href="#sobremi"><img className="iconNav" src={iconav} alt="icon"/></a>
+                    <a className="li" href="#sobremi">Sobre mí</a>
+                    <a className="li" href="#proyectos">Proyectos</a>
+                    <a className="li"href="#educacion">Educación</a>
+                    <a className="li" href="#habilidades">Habilidades</a>
+                    <a className="li" href="#contacto">Contacto</a>
                 </ul>
             </div>
         </NavbarContainer>

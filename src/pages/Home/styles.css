@@ -4,16 +4,13 @@
 
 .content-container {
     margin-left: auto;
-    padding: 20px;
     width: calc(100% - 200px);
     background-color: rgb(198, 205, 210);
 }
 
 section {
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: auto;
     border-bottom: 2px solid rgb(64,126,175);
 }
 
