@@ -1,10 +1,10 @@
 .edubox {
-    height: 100vh;
+    min-height: 100vh;
     max-width: 100%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: stretch;
 }
 
@@ -12,9 +12,9 @@
     background-color: #f7f7f7;
     border-radius: 15px;
     padding: 50px;
-    margin: auto;
+    margin: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: calc(50% - 60px);
+    max-width: 300px;
     min-height: 40%;
     align-items: center;
     justify-content: center;
