@@ -12,7 +12,7 @@ function Proyects() {
     return(
         <div className='proyectBox'>
             <div className='proyectCard'>
-                <div className='proyectTitle'>
+                <div className='proyectTitle' id='A'>
                     <h1>Ecommerce Frontend</h1>
                 </div>
                 <div className='proyectDesc'>
@@ -24,11 +24,11 @@ function Proyects() {
                         <li><React /></li>
                         <li><Bootstrap /></li>
                     </ul>
-                    <a href="#">deploy</a>
+                    <a href="https://brunocalace.github.io/React.js-ViveYSuelta/">brunocalace.github.io/React.js-ViveYSuelta/</a>
                 </div>
             </div>
             <div className='proyectCard'>
-                <div className='proyectTitle'>
+                <div className='proyectTitle' id='B'>
                     <h1>Ecommerce Fullstack</h1>
                 </div>
                 <div className='proyectDesc'>
@@ -42,7 +42,7 @@ function Proyects() {
                         <li><Mongo /></li>
                         <li><Express /></li>
                     </ul>
-                    <a href="#">deploy</a>
+                    <a href="https://viveysuelta.onrender.com">viveysuelta.onrender.com</a>
                 </div>
             </div>
         </div>
