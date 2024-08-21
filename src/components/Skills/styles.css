@@ -2,71 +2,42 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     color: black;
 }
 
 .cardContainer {
     width: 100%;
     max-width: 1200px;
-    margin-bottom: 40px;
     padding: 50px;
 }
   
 .cardContainer h1 {
-    text-align: center;
+    font-size: 30px;
+    text-align: left;
     margin-bottom: 20px;
 }
 
 .skillCards {
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.skill {
+.skillCards ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    text-align: center;
-    padding: 5px;
-    border-radius: 10%;
-    max-width: 200px;
-}
-  
-.skill svg {
-    width: 30px;
-    height: 30px;
-    margin: auto;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 }
 
-.skill p {
-    margin: auto;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-#html {
-    background-color: #e34c26;
-}
-  
-#css {
-    background-color: #2965f1;
-}
-  
-#sass {
-    background-color: #cc6699;
-}
-  
-#js {
-    background-color: #f7df1e;
-}
-  
-#bs {
-    background-color: #563d7c; 
-}
-  
-#react {
-    background-color: #61dafb;
+.skillCards ul li {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

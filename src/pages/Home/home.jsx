@@ -5,7 +5,6 @@ import Proyects from '../../components/Proyects'
 import Educacion from '../../components/Educacion'
 import Skills from '../../components/Skills'
 import Contacto from '../../components/Contacto'
-/*import Footer from "../../components/Footer" */
 
 const Home = () => {
     return (
