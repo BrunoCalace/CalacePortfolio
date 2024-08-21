@@ -8,7 +8,7 @@ function App() {
     <main>
       <Router>
         <Routes>
-          <Route path="/CalacePortfolio" element={ <Home /> } />
+          <Route path="/" element={ <Home /> } />
           <Route path="*" element={ <ErrorPage /> } />
         </Routes>
       </Router>
