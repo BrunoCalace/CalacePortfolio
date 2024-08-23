@@ -1,11 +1,21 @@
 .home-container {
     display: flex;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .content-container {
     margin-left: auto;
     width: calc(100% - 200px);
     background-color: rgb(198, 205, 210);
+
+    @media (max-width: 768px) {
+        width: 100vw;
+        height: calc(100% - 30px);
+        margin: auto;
+    }
 }
 
 section {
