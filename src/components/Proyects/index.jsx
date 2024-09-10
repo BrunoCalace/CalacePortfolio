@@ -25,7 +25,9 @@ function Proyects() {
                         <li><Javascript /></li>
                         <li><React /></li>
                     </ul>
-                    <a href="https://brunocalace.github.io/occultSpellList/">brunocalace.github.io/occultSpellList/</a>
+                    <a href="https://brunocalace.github.io/occultSpellList/" target="_blank" rel="noopener noreferrer">
+                        brunocalace.github.io/occultSpellList/
+                    </a>
                 </div>
             </div>
             <div className='proyectCard'>
@@ -41,7 +43,9 @@ function Proyects() {
                         <li><React /></li>
                         <li><Bootstrap /></li>
                     </ul>
-                    <a href="https://brunocalace.github.io/React.js-ViveYSuelta/">brunocalace.github.io/React.js-ViveYSuelta/</a>
+                    <a href="https://brunocalace.github.io/React.js-ViveYSuelta/" target="_blank" rel="noopener noreferrer">
+                        brunocalace.github.io/React.js-ViveYSuelta/
+                    </a>
                 </div>
             </div>
             <div className='proyectCard'>
@@ -59,7 +63,9 @@ function Proyects() {
                         <li><Mongo /></li>
                         <li><Express /></li>
                     </ul>
-                    <a href="https://viveysuelta.onrender.com">viveysuelta.onrender.com</a>
+                    <a href="https://viveysuelta.onrender.com" target="_blank" rel="noopener noreferrer">
+                        viveysuelta.onrender.com
+                    </a>
                 </div>
             </div>
         </div>
