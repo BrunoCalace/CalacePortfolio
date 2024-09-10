@@ -7,6 +7,7 @@ import React from '../Skills/Skillreact'
 import Bootstrap from '../Skills/Skillbs'
 import Nodejs from '../Skills/Skillnodejs'
 import Mongo from '../Skills/Skillmongo'
+import Firebase from '../Skills/Skillfb'
 import Express from '../Skills/Skillex'
 
 function Proyects() {
@@ -24,6 +25,8 @@ function Proyects() {
                         <li><Sass /></li>
                         <li><Javascript /></li>
                         <li><React /></li>
+                        <li><Bootstrap /></li>
+                        <li><Firebase /></li>
                     </ul>
                     <a href="https://brunocalace.github.io/occultSpellList/" target="_blank" rel="noopener noreferrer">
                         brunocalace.github.io/occultSpellList/
@@ -43,6 +46,7 @@ function Proyects() {
                         <li><Javascript /></li>
                         <li><React /></li>
                         <li><Bootstrap /></li>
+                        <li><Firebase /></li>
                     </ul>
                     <a href="https://brunocalace.github.io/React.js-ViveYSuelta/" target="_blank" rel="noopener noreferrer">
                         brunocalace.github.io/React.js-ViveYSuelta/
@@ -51,7 +55,7 @@ function Proyects() {
             </div>
             <div className='proyectCard'>
                 <div className='proyectTitle' id='B'>
-                    <h1>Ecommerce Fullstack</h1>
+                    <h1>Ecommerce Backend</h1>
                 </div>
                 <div className='proyectDesc'>
                     <p>Ecommerce mas enfocado al backend, tiene manejo de usuarios y permisos. Realizado en el curso de Backend de Coderhouse.</p>
