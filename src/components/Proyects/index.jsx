@@ -9,6 +9,8 @@ import Nodejs from '../Skills/Skillnodejs'
 import Mongo from '../Skills/Skillmongo'
 import Firebase from '../Skills/Skillfb'
 import Express from '../Skills/Skillex'
+import Typescript from '../Skills/Skillts'
+import Nestjs from '../Skills/Skillnestjs'
 
 function Proyects() {
     return(
@@ -18,18 +20,16 @@ function Proyects() {
                     <h1>Pathfinder Spell List</h1>
                 </div>
                 <div className='proyectDesc'>
-                    <p>Este es un proyecto sin fin de lucro, todos los derechos reservados Paizo "Pathfinder: 2nd edition". Spell list y spell repertoire con spell slots automatizados para cada lvl. La idea surge de optimizar el tiempo de decisión sobre que poder utilizar por los spell casters asi como el facil acceso a su información durante una sesión de TTRPG.</p>
+                    <p>Este es un proyecto sin fin de lucro, todos los derechos reservados Paizo "Pathfinder: 2nd edition". Spell list y spell repertoire. La idea surge de optimizar el tiempo de decisión sobre que spell utilizar por los spell casters asi como el facil acceso a su información durante una sesión de TTRPG.</p>
                     <p>En este proyecto se utilizo: </p>
                     <ul>
-                        <li><Html /></li>
-                        <li><Sass /></li>
-                        <li><Javascript /></li>
+                        <li><Nestjs /></li>
                         <li><React /></li>
                         <li><Bootstrap /></li>
-                        <li><Firebase /></li>
+                        <li><Mongo /></li>
                     </ul>
-                    <a href="https://brunocalace.github.io/occultSpellList/" target="_blank" rel="noopener noreferrer">
-                        brunocalace.github.io/occultSpellList/
+                    <a href="https://spell-assistant.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        spell-assistant.vercel.app
                     </a>
                 </div>
             </div>
@@ -41,8 +41,6 @@ function Proyects() {
                     <p>Ecommerce utilizando firebase como base de datos. Realizado en el curso de Frontend de Coderhouse.</p>
                     <p>En este proyecto se utilizo: </p>
                     <ul>
-                        <li><Html /></li>
-                        <li><Css /></li>
                         <li><Javascript /></li>
                         <li><React /></li>
                         <li><Bootstrap /></li>
@@ -61,8 +59,6 @@ function Proyects() {
                     <p>Ecommerce mas enfocado al backend, tiene manejo de usuarios y permisos. Realizado en el curso de Backend de Coderhouse.</p>
                     <p>En este proyecto se utilizo: </p>
                     <ul>
-                        <li><Html /></li>
-                        <li><Css /></li>
                         <li><Javascript /></li>
                         <li><Bootstrap /></li>
                         <li><Nodejs /></li>

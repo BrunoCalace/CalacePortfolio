@@ -8,6 +8,8 @@ import React from './Skillreact'
 import Nodejs from './Skillnodejs'
 import Express from './Skillex'
 import Mongo from './Skillmongo'
+import Typescript from './Skillts'
+import Nestjs from './Skillnestjs'
 
 function Skills() {
     return(
@@ -20,6 +22,7 @@ function Skills() {
                         <li><Css /></li>
                         <li><Sass /></li>
                         <li><Javascript /></li>
+                        <li><Typescript /></li>
                     </ul>
                 </div>
             </div>
@@ -30,6 +33,7 @@ function Skills() {
                         <li><Bootstrap /></li>
                         <li><React /></li>
                         <li><Nodejs /></li>
+                        <li><Nestjs /></li>
                         <li><Express /></li>
                     </ul>
                 </div>

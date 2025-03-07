@@ -13,7 +13,6 @@
     width: 30px;
     height: 30px;
     margin: auto;
-    padding-right: 5px;
 }
 
 .skill p {
@@ -21,7 +20,7 @@
     font-size: 14px;
     font-weight: bold;
 }
-  
-#bs {
-    background-color: #563d7c; 
+
+#typescript {
+    background-color: #3178C6;
 }
